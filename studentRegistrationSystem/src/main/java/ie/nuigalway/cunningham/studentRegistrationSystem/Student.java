@@ -28,10 +28,9 @@ public class Student {
 
 	//Method to generate a username for a user
 	
-	private String getUsername() {
-
-		String generated_username = this.name + this.age;
-		return generated_username;
+	public String getUsername() {
+		
+		return this.name + this.age;
 		
 	}
 	
