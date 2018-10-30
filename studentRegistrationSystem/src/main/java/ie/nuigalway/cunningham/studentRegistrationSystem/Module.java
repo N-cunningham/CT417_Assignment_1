@@ -11,7 +11,7 @@ public class Module {
 	private ArrayList<Student> students;
 	private ArrayList<String> courses;
 
-	Module(String name, int id, ArrayList<Student> students, ArrayList<String> courses){
+	public Module(String name, int id, ArrayList<Student> students, ArrayList<String> courses){
 		
 		this.name = name;
 		this.id = id;
