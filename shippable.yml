@@ -3,12 +3,7 @@ jdk:
  - openjdk7
 branches:
  only:
-  -master
+  - master
 build:
  on_sucess:
   _mvm clean test
-notifications:
- email:
-  recipients:
-   - n.cunningham12@nuigalway.ie
-
