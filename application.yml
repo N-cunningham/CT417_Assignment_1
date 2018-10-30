@@ -7,8 +7,5 @@ branches:
 build:
  on_sucess:
   _mvm clean test
-notifications:
- email:
-  recipients:
-   - niallpaulcunningham@gmail.com
+
 
